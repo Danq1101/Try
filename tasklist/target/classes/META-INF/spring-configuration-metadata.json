@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "security.jwt",
+      "type": "com.example.tasklist.service.props.JwtProperties",
+      "sourceType": "com.example.tasklist.service.props.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.jwt.access",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.tasklist.service.props.JwtProperties"
+    },
+    {
+      "name": "security.jwt.refresh",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.tasklist.service.props.JwtProperties"
+    },
+    {
+      "name": "security.jwt.secrete",
+      "type": "java.lang.String",
+      "sourceType": "com.example.tasklist.service.props.JwtProperties"
+    }
+  ],
+  "hints": []
+}

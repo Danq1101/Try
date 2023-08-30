@@ -1,0 +1,19 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tasklist
+    username: root
+    password: root
+  sql:
+    init:
+      mode: always
+      continue-on-error: false
+#      data-locations: classpath:demo_data.sql
+
+security:
+  jwt:
+    secrete: daskhduasGHW%3BEONC%27WEIJF%27AMACV%27AERPOMBV%5BERFADASDKJW%3BFNW%3BIENCW%3BEFNWO%3BDIMW%3BEOFNWECKDNFOQWD56132168498QW4D3AS21D
+    access: 360000
+    refresh: 2592000000
